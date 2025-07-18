@@ -2,7 +2,7 @@ substitutions:
   device_name: "temp-1w8-pro"
   friendly_name: "temp-1w8-pro"
   project_name: "makerspacelt.temp-1w8-pro"
-  version: "v4.0"
+  version: "4.0"
 
 esphome:
   name: "${device_name}"
