@@ -78,7 +78,7 @@ display:
       it.printf(66, -4, id(font1), "%.2f", (float)(id(T5).state));
       it.printf(66, 12, id(font1), "%.2f", (float)(id(T6).state));
       it.printf(66, 28, id(font1), "%.2f", (float)(id(T7).state));
-      it.printf(66, 44, id(font1), "%.2f", (float)(id(T8).state));
+      //test ota it.printf(66, 44, id(font1), "%.2f", (float)(id(T8).state));
 
 one_wire:
   - {platform: gpio, id: w1, pin: 4}
