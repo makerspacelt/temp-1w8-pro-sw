@@ -27,6 +27,11 @@ http_request:
 ota:
   platform: http_request
 
+update:
+  - platform: http_request
+    name: Firmware
+    source: https://github.com/makerspacelt/temp-1w8-pro-sw/releases/latest/download/temp-1w8-pro.manifest.json
+
 wifi:
     ap: {}
 
@@ -35,6 +40,9 @@ dashboard_import:
   import_full_config: true
 
 improv_serial:
+
+esp32_improv:
+  authorizer: none
 
 mdns:
 
